@@ -49,7 +49,7 @@ router.post('/addPlace',
                 });
             }
         })
-        res.status(200).json({ stats: "sucess", data: "" });
+        res.status(200).json({ status: "success", data: "" });
     });
 
 module.exports = router;
